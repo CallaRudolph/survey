@@ -8,16 +8,52 @@
     <title>Surv-eeeeeyyy</title>
   </head>
   <body>
-    <h4>Select Your Favorite Fast Food!?</h4>
-    <select class="form-control" id="fastfood">
-      <option value="Little Big Burger">Little Big Burger</option>
-      <option value="Burgerville">Burgerville</option>
-      <option value="Taco Bell">Taco Bell</option>
-      <option value="Wendy's">Wendy's</option>
-      <option value="Arby's">Arby's</option>
-      <option value="Dairy Queen">Dairy Queen</option>
-    </select>
-    <button type="btn btn-info" name="button">Display Response</button>
-
+    <div class="container">
+      <h3>What is your name <em>traveller?</em></h3>
+      <div class="form-group">
+         <label for="name">Enter your nomenclature:</label>
+         <input id="nombre" class="form-control" type="text">
+      </div>
+      <br>
+      <h4>Select Your Favorite Fast Food!?</h4>
+      <select class="form-control" id="fastfood">
+        <option value="Little Big Burger">Little Big Burger</option>
+        <option value="Burgerville">Burgerville</option>
+        <option value="Taco Bell">Taco Bell</option>
+        <option value="Wendy's">Wendy's</option>
+        <option value="Arby's">Arby's</option>
+        <option value="Dairy Queen">Dairy Queen</option>
+      </select>
+      <br>
+      <button type="btn btn-info" name="button">Display Response</button>
+      <br><br><br>
+      <h4>What music do you listen to?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="music" value="country" checked>
+          Country
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="music" value="rap">
+          Rap
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="music" value="Enya">
+          Enya
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+    </div>
   </body>
 </html>
